@@ -3,17 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": ""
+    "version": "3.8.0"
   },
   "yuqueConfig": {
-	"postPath": "source/_posts/yuque",
-	"cachePath": "yuque.json",
-	"adapter": "hexo",
-	"concurrency": 5,
-	"baseUrl": "https://www.yuque.com/api/v2",
-	"login": "ingchang",
-	"repo": "blog",
-	"mdNameFormat": "title"
+    "postPath": "source/_posts/yuque",
+    "cachePath": "yuque.json",
+    "adapter": "hexo",
+    "concurrency": 5,
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "ingchang",
+    "repo": "blog",
+    "mdNameFormat": "title"
   },
   "scripts": {
     "dev": "npm run sync && hexo s",

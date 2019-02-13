@@ -1,0 +1,36 @@
+<canvas id="pattern-placeholder" height="230"></canvas>
+<div class="navbar-header">
+  <a class="blog-title" href="<%= config.root %>"><%= config.title %></a>
+  <a class="face-img" href="<%= config.root %>">
+    <img src="<%=theme.avatar%>">
+  </a>
+</div>
+<main>
+  <div class="article-title">
+    <%- partial('_partial/post/title') %>
+    <ul class="article-info">
+      <li>
+        发布
+        <%- partial('post/date') %>
+      </li>
+      <li>
+        <%- partial('post/updated') %>
+      </li>
+      <li id="busuanzi_container_page_pv">
+        阅读 <span id="busuanzi_value_page_pv"></span>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="article">
+      <div class="content">
+        <%- post.content %>
+      </div>
+    </div>
+   </div>
+</main>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<% if (post.mathjax){ %>
+  <%- partial('_partial/post/mathjax') %>
+<% } %>
+<%- partial('script.ejs') %>
