@@ -22,10 +22,10 @@ avatar: https://cdn.nlark.com/yuque/0/2019/jpeg/264540/1550037746777-3e4d247a-5e
 # 首页左侧边栏背景图片
 # 可配置多个 随机挑选一张
 leftBackground:
-  - https://ws3.sinaimg.cn/large/006tKfTcly1fsulzlvofnj30af0k5jvu.jpg
-  - https://ws2.sinaimg.cn/large/006tNbRwly1fwl2alhqibj31kw2dcu0y.jpg
-  - https://ws3.sinaimg.cn/large/006tNbRwly1fwl2dentnvj31kw2dc1l2.jpg
-  - https://ws4.sinaimg.cn/large/006tNbRwly1fwl2dqawiej31kw2d8x6p.jpg
+  - /source/img/blog1.jpeg
+  - /source/img/blog2.jpeg
+  - /source/img/blog3.jpeg
+  - /source/img/blog4.jpeg
 
 # 展示更新时间
 display_updated: true
